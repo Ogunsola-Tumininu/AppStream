@@ -1,0 +1,107 @@
+<ion-app>
+  <ion-menu side="start" contentId="content1">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title> Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-menu side="start" contentId="content1">
+
+    <ion-content padding>
+
+      <ion-grid no-padding >
+        <ion-row padding align-items-center >
+          <ion-col size="3">
+            <img style="width:90%" src="assets/img/menu-avatar.png">
+          </ion-col>
+
+          <ion-col size="9">
+            <h6>Joel Erickson</h6>
+            <p style="font-family:open-sans; font-size:13px; color:#758692; margin-top:-1.5vh">Indonesia</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row padding align-items-center style="margin-top:-20px">
+          <ion-col size="3">
+            <img style="width:50%" src="assets/img/pin.png">
+          </ion-col>
+
+          <ion-col size="9">
+            <p style="font-family:open-sans; font-size:16px; letter-spacing:0.5px; color:#1c252a;">Home
+              Page</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row padding align-items-center style="margin-top:-50px">
+          <ion-col size="3">
+            <img style="width:50%" src="assets/img/playlist.png">
+          </ion-col>
+
+          <ion-col size="9">
+            <p style="font-family:open-sans; font-size:16px; letter-spacing:0.5px; color:#0091ea;">
+              Playlists</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row padding align-items-center style="margin-top:-50px">
+          <ion-col size="3">
+            <img style="width:50%" src="assets/img/channels.png">
+          </ion-col>
+
+          <ion-col col-auto size="9">
+            <p style="font-family:open-sans; font-size:16px; letter-spacing:0.5px; color:#1c252a;">
+              Channels</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row padding align-items-center style="margin-top:-50px">
+          <ion-col size="3">
+            <img style="width:50%" src="assets/img/library.png">
+          </ion-col>
+
+          <ion-col size="9">
+            <p style="font-family:open-sans; font-size:16px; letter-spacing:0.5px; color:#1c252a;">My
+              Library</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row padding align-items-center style="margin-top:-50px">
+          <ion-col size="3">
+            <img style="width:50%" src="assets/img/download.png">
+          </ion-col>
+
+          <ion-col size="9">
+            <p style="font-family:open-sans; font-size:16px; letter-spacing:0.5px; color:#1c252a;">
+              Downloads</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row padding align-items-center style="margin-top:-50px">
+          <ion-col size="3">
+            <img style="width:50%" src="assets/img/logout.png">
+          </ion-col>
+
+          <ion-col size="9">
+            <p style="font-family:open-sans; font-size:16px; letter-spacing:0.5px; color:#1c252a; ">
+              Sign-Out</p>
+          </ion-col>
+        </ion-row>
+
+      </ion-grid>
+
+    </ion-content>
+
+  </ion-menu>
+
+  <ion-router-outlet id="content1"></ion-router-outlet>
+</ion-app>

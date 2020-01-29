@@ -1,0 +1,45 @@
+.bg-image{
+    background-image: url('../../assets/img/login.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.no-scroll, .scroll-content{
+    overflow: hidden !important;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-top: 2vh;
+
+}
+
+ion-list{
+    text-align: center;
+    padding: 0 10%;
+   --ion-item-background: transparent !important;
+   
+}
+
+.text{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-btn{
+    margin-bottom: 15px;
+    margin-top: 40px
+}
+
+.signup-btn{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo-login{
+    width:50%;
+    padding: 8%
+}

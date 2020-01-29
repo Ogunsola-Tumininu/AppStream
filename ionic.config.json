@@ -1,0 +1,7 @@
+{
+  "name": "AppStream",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

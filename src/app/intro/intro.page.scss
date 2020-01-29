@@ -1,0 +1,23 @@
+ion-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ion-slides{
+    --bullet-background-active: white
+}
+
+.bg-image{
+    background-image: url('../../assets/img/bg2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.start-btn{
+    position: absolute;
+    bottom: 120px;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+}
